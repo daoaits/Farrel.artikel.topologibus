@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="style.css">
+    <title>Website Artikel</title>
+</head>
+<body>
+  <style>
+    body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #070707;
+    color: #f6f4f4;
+    text-align: justify;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    text-align: justify;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(39, 39, 228);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+}
+  </style>
+  <nav>
+    <div class="navbar">
+        <div class="brand">Farrel Andrean</div>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+        </ul>
+    </div>
+</nav>
+    <header>
+        <h1>Welcome to My Article</h1>
+        <p>Saya Farrel Andrean Saya Sebagai Developer dari Website ini</p>
+    </header>
+    <article>
+        <h1>Apa Sih Topologi Bus Itu</h1>
+        <img src="kom.jpeg" alt="farel html">
+        <h1>Topologi Bus</h1>
+        <h2>Pengertian Topologi Bus</h2>
+        <p>Topologi bus adalah suatu cara atau metode untuk dapat menghubungkan sejumlah perangkat komputer menggunakan kabel tunggal atau bus sebagai media transmisi (pusat lalu lintas data).
+            Topologi jenis ini paling sering diterapkan untuk jaringan yang skalanya kecil dan hubungkan lewat kabel tunggal atau bus. Sesuai dengan namanya gambar topologi ini rangkaiannya menyerupai area di dalam bus.
+            Proses transmisi data pada jaringan topologi ini menggunakan terminator dan juga perangkat keras seperti contohnya konektor T serta BNC. Kabel tunggal yang digunakannya menggunakan kabel coaxical.
+            Fungsi topologi ini yaitu untuk menghubungkan seluruh perangkat sehingga dapat saling bertukar data dan berkomunikasi.
+            Prinsip kerja dari topologi ini juga cukup sederhana yaitu satu perangkat untuk server serta jaringannya lalu dipecah dan akan dihubungkan ke perangkat lain dengan menggunakan bus.</p>
+            <p>Karakteristik Topologi Bus</p>
+            <p>Karakteristik dari jenis topologi jaringan ini tergolong mudah untuk dikendalikan. Hal tersebut menjadi salah satu alasan mengapa banyak perusahaan kecil yang memutuskan untuk menggunakan topologi ini.</p>
+        <p>Berikut ini merupakan beberapa karakteristik dari topologi yang perlu Anda ketahui:</p>
+            <ul>Memiliki kabel utama untuk pusat lalu lintas data
+    Proses instalasi jaringannya sangat sederhana dan ringan
+    Biaya yang dibutuhkan dalam pembangunan topologi ini cukup terjangkau
+    Lebih banyak memerlukan BNC serta konektor T pada setiap ethernet card jika dibandingkan dengan hub
+    Setiap node yang ada akan dihubungkan secara serial yang keduanya ditutupkan dengan terminator
+    Intersection di dalam satu paket data sering terjadi
+    Apabila masalah terjadi pada salah satu node maka akan membuat seluruh jaringan menjadi down</ul>
+    <h2>Cara Kerja Topologi Bus</h2>
+    <img src="file.jpeg" alt="farel html">
+        <p>Pada topologi jaringan bus seluruh perangkat jaringannya dihubungkan kabel utama sehingga bisa mengirim dan juga menerima paket data. Tetapi yang perlu digaris bawahi yaitu transfer data ini bisa terjadi jika kabel utama ada pada kondisi bebas saat proses pertukaran data sedang berlangsung.
+        Contoh topologi jenis ini memanfaatkan protokol bernama CSMA yaitu Carrier Sense Multiple Access dan CD (Collision Detection) pada prosesnya. Hal tersebut untuk bisa memastikan proses dari pertukaran paket berjalan dengan lancar tanpa adanya gangguan seperti contohnya gangguan tabrakan data di kabel utama.
+        Pada saat perangkat ingin mengirimkan data ke perangkat yang lainnya maka perangkat pengirim melakukan broadcast dahulu. Proses tersebut yaitu sinyal yang disebarkan di seluruh kabel jaringan. Kemudian sinyal tersebutlah yang memeriksa perangkat untuk dapat menemukan alamat tujuan.
+        Apabila IP address dari perangkat yang diperiksa sudah sesuai dengan alamat tujuan maka perangkat yang dituju bisa menangkap sinyal. Begitu pula sebaliknya jika tidak sesuai maka sinyal akan dibuang.</p>
+
+
+
+
+        </article>
+    <footer>
+        <p>&copy;TERIMAKASIH</p>
+    </footer>
+</body>
+</html>
